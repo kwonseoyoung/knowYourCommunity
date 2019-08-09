@@ -1,0 +1,24 @@
+html, body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration-line: underline;
+	color: red;
+}
+
+span#access {
+	color: lightgreen;
+}
+
+span#disab {
+	color: skyblue;
+}
+
+span#ineq {
+	color: red;
+}

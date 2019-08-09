@@ -1,0 +1,40 @@
+html, body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration-line: underline;
+	color: red;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.columnhalf {
+	float: left;
+	width: 50%;
+}
+
+#centerthis {
+	margin: 0 auto;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+*@media screen and (max-width: 900px) {
+  .column {
+    width: 100%;
+  }
+}
